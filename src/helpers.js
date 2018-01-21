@@ -12,7 +12,7 @@ export function unwrapExports (x) {
 }
 
 export function createCommonjsModule(fn, module) {
-	return module = { exports: {} }, fn(module, module.exports), module.exports;
+	return module = { exports: {} }, fn(module, module.exports).catch(err => console.warn(err)), module.exports;
 }`;
 
 export const PREFIX = '\0commonjs-proxy:';
