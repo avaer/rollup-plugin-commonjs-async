@@ -357,7 +357,7 @@ export function transformCommonjs ( code, id, isEntry, ignoreGlobal, ignoreRequi
 	if ( shouldWrap ) {
 		const args = `module${uses.exports ? ', exports' : ''}`;
 
-		wrapperStart = `var ${moduleName} = ${HELPERS_NAME}.createCommonjsModule(async function (${args}) {\n`;
+		wrapperStart = `var ${moduleName} = ${HELPERS_NAME}.createCommonjsModule(async (${args}) => {\n`;
 		wrapperEnd = `\n});`;
 
 		Object.keys( namedExports )
