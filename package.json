@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-commonjs",
-  "version": "8.2.6",
+  "name": "rollup-plugin-commonjs-async",
+  "version": "0.0.1",
   "description": "Convert CommonJS modules to ES2015",
   "main": "dist/rollup-plugin-commonjs.cjs.js",
   "module": "dist/rollup-plugin-commonjs.es.js",
@@ -39,11 +39,11 @@
     "source-map": "^0.6.1",
     "source-map-support": "^0.5.0"
   },
-  "repository": "rollup/rollup-plugin-commonjs",
-  "author": "Rich Harris",
+  "repository": "modulesio/rollup-plugin-commonjs-async",
+  "author": "Avaer Kazmer <a@modules.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rollup/rollup-plugin-commonjs/issues"
+    "url": "https://github.com/modulesio/rollup-plugin-commonjs-async/issues"
   },
-  "homepage": "https://github.com/rollup/rollup-plugin-commonjs"
+  "homepage": "https://github.com/modulesio/rollup-plugin-commonjs-async"
 }
