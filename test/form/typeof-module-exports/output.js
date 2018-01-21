@@ -1,6 +1,6 @@
 import * as commonjsHelpers from 'commonjsHelpers';
 
-var input = commonjsHelpers.createCommonjsModule(function (module, exports) {
+var input = commonjsHelpers.createCommonjsModule(async function (module, exports) {
 var foo = 42;
 
 if ( 'object' === 'object' && 'object' === 'object' ) {
